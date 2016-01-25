@@ -1,3 +1,3 @@
 # vim
-cp .vimrc ~/
+cp .vimrc ~/ <br>
 cp plugin/* ~/.vim -Rf
