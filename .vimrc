@@ -102,7 +102,7 @@ set nu  "显示行号
 set background=dark "设置背景颜色
 set ruler    "显示状态行
 set showmatch   "括号匹配模式
-set tags=tags
+set tags+=tags
 
 "let g:bufExplorerDefaultHelp=0
 "let g:bufExplorerShowRelativePath=1
