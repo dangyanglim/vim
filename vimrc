@@ -10,6 +10,11 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'jlanzarotta/bufexplorer'
 Bundle 'vimplugin/project.vim'
+Bundle 'nathanaelkane/vim-indent-guides'
+Bundle '1995eaton/vim-better-javascript-completion'
+Bundle 'zzdhidden/vim-javascript-indent'
+Bundle 'mklabs/vim-nodemate'
+Bundle 'othree/html5.vim'
 
 Bundle 'winmanager'
 Bundle 'taglist.vim'
@@ -18,7 +23,11 @@ Bundle 'omnicppcomplete'
 Bundle 'AutoComplPop'
 Bundle 'c.vim'
 Bundle 'Syntastic'
-Bundle 'nathanaelkane/vim-indent-guides'
+Bundle 'Emmet.vim'
+Bundle 'snipMate'
+
+Plugin 'pangloss/vim-javascript'
+Plugin 'jelera/vim-javascript-syntax'
 
 filetype plugin indent on     " required!
 
@@ -32,6 +41,7 @@ if has('mouse')
         set mouse=n
 endif
 
+syntax enable
 syntax on
 set ai
 set ci  
@@ -49,8 +59,8 @@ let g:winManagerWindowLayout='BufExploer,FileExplorer|TagList'
 let g:winManagerWidth=30
 map wm :WMToggle<cr>
 
-
-set completeopt=menu,menuone " 关掉智能补全时的预览窗口
+set completeopt=longest,menu
+"set completeopt=menu,menuone " 关掉智能补全时的预览窗口
 let OmniCpp_MayCompleteDot = 1 " autocomplete with .
 let OmniCpp_MayCompleteArrow = 1 " autocomplete with ->
 let OmniCpp_MayCompleteScope = 1 " autocomplete with ::
@@ -67,6 +77,9 @@ let OmniCpp_ShowAccess=1
 let g:indent_guides_enable_on_vim_startup = 0  " 默认关闭
 let g:indent_guides_guide_size            = 1  " 指定对齐线的尺寸
 let g:indent_guides_start_level       = 2  "从第二层开始可视化显示缩进
+
+
+let javascript_enable_domhtmlcss=1
 
 ""syntax
 "" Set symbol characters
