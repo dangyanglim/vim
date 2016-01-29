@@ -1,5 +1,5 @@
 # vim
-安装插件管理工具<br>
+安装插件管理工具.
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle<br>
 cp .vimrc ~/ <br>
 $vim<br>
