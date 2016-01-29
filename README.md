@@ -16,3 +16,9 @@ npm install -g js-beautify
 gg=G format  
 ctrl+p,ctrl+n  
 
+
+##example
+
+
+![example.png](example.png)  
+
