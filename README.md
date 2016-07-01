@@ -22,3 +22,4 @@ ctrl+p,ctrl+n
 
 ![example.png](example.png)  
 
+按住Ctrl+y 再按","结果
